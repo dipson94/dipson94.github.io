@@ -1,0 +1,34 @@
+* {
+		  box-sizing: border-box;
+		  margin: 0;
+		  padding: 0;
+		}
+	
+		body {
+		  margin: 0;
+		}
+		.block1 {
+		  background-color: #5fcb71;
+		}
+
+		.icon {
+      color: rgb(212, 33, 63); 
+      font-size: 24px; 
+    }
+	.round-icon {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: rgb(255, 255, 255); 
+    }
+	.no-underline {
+      text-decoration: none;
+    }
+	.webpage-container {
+      width: 100%;
+      height: 1080px;
+	  border: 0;
+    }
