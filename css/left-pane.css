@@ -32,3 +32,9 @@
       height: 1080px;
 	  border: 0;
     }
+    .font {
+      color:white;
+      text-align: center;
+      font-family:  'Brush Script MT', cursive;
+
+    }
