@@ -5,6 +5,17 @@
 <title>Dipson</title>
 <link rel="stylesheet" href="../css/main.css">
 </head>
+<script>
+
+    window.addEventListener('DOMContentLoaded', () => {
+    const zoomLevel = window.devicePixelRatio * 100;
+
+    if (zoomLevel !== 100) {
+        alert('Zoom Level Alert: Set page scaling to 100%');
+    }
+});
+
+</script>
 <body>
  <div class="container">
 	<div class="block0">
